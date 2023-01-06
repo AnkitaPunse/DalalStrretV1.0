@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-04T14:20:00 IST" name="Regression Suite" finished-at="2023-01-04T14:21:29 IST" duration-ms="89035">
+    <groups>
+    </groups>
+    <test started-at="2023-01-04T14:20:00 IST" name="Test" finished-at="2023-01-04T14:21:29 IST" duration-ms="89035">
+      <class name="ai.DS.apps.Testlayer.BuyatLongtermCustom">
+        <test-method is-config="true" signature="SetUpBrowser(java.lang.String)[pri:0, instance:ai.DS.apps.Testlayer.BuyatLongtermCustom@515aebb0]" started-at="2023-01-04T14:20:15 IST" name="SetUpBrowser" finished-at="2023-01-04T14:20:19 IST" duration-ms="4830" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpBrowser -->
+        <test-method signature="verifyBuy2()[pri:0, instance:ai.DS.apps.Testlayer.BuyatLongtermCustom@515aebb0]" started-at="2023-01-04T14:20:19 IST" name="verifyBuy2" finished-at="2023-01-04T14:20:31 IST" duration-ms="11372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBuy2 -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:ai.DS.apps.Testlayer.BuyatLongtermCustom@515aebb0]" started-at="2023-01-04T14:20:31 IST" name="CloseBrowser" finished-at="2023-01-04T14:20:31 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- ai.DS.apps.Testlayer.BuyatLongtermCustom -->
+      <class name="ai.DS.apps.Testlayer.BuyFuctionalityScenario">
+        <test-method is-config="true" signature="SetUpBrowser(java.lang.String)[pri:0, instance:ai.DS.apps.Testlayer.BuyFuctionalityScenario@dd8ba08]" started-at="2023-01-04T14:20:31 IST" name="SetUpBrowser" finished-at="2023-01-04T14:20:40 IST" duration-ms="8873" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpBrowser -->
+        <test-method signature="verifyBuyFuctionality()[pri:0, instance:ai.DS.apps.Testlayer.BuyFuctionalityScenario@dd8ba08]" started-at="2023-01-04T14:20:40 IST" name="verifyBuyFuctionality" finished-at="2023-01-04T14:20:51 IST" duration-ms="11107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBuyFuctionality -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:ai.DS.apps.Testlayer.BuyFuctionalityScenario@dd8ba08]" started-at="2023-01-04T14:20:51 IST" name="CloseBrowser" finished-at="2023-01-04T14:20:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- ai.DS.apps.Testlayer.BuyFuctionalityScenario -->
+      <class name="ai.DS.apps.Testlayer.LoginpageTest">
+        <test-method is-config="true" signature="SetUpBrowser(java.lang.String)[pri:0, instance:ai.DS.apps.Testlayer.LoginpageTest@5fdcaa40]" started-at="2023-01-04T14:20:00 IST" name="SetUpBrowser" finished-at="2023-01-04T14:20:09 IST" duration-ms="9130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpBrowser -->
+        <test-method signature="VerifyLogin()[pri:0, instance:ai.DS.apps.Testlayer.LoginpageTest@5fdcaa40]" started-at="2023-01-04T14:20:09 IST" name="VerifyLogin" finished-at="2023-01-04T14:20:14 IST" duration-ms="5037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:ai.DS.apps.Testlayer.LoginpageTest@5fdcaa40]" started-at="2023-01-04T14:20:14 IST" name="CloseBrowser" finished-at="2023-01-04T14:20:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- ai.DS.apps.Testlayer.LoginpageTest -->
+      <class name="ai.DS.apps.Testlayer.BuyatIntradayMarket">
+        <test-method is-config="true" signature="SetUpBrowser(java.lang.String)[pri:0, instance:ai.DS.apps.Testlayer.BuyatIntradayMarket@6c64cb25]" started-at="2023-01-04T14:21:11 IST" name="SetUpBrowser" finished-at="2023-01-04T14:21:19 IST" duration-ms="8086" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpBrowser -->
+        <test-method signature="VerifyBuyatIntradayMarket()[pri:0, instance:ai.DS.apps.Testlayer.BuyatIntradayMarket@6c64cb25]" started-at="2023-01-04T14:21:19 IST" name="VerifyBuyatIntradayMarket" finished-at="2023-01-04T14:21:29 IST" duration-ms="10581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyBuyatIntradayMarket -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:ai.DS.apps.Testlayer.BuyatIntradayMarket@6c64cb25]" started-at="2023-01-04T14:21:29 IST" name="CloseBrowser" finished-at="2023-01-04T14:21:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- ai.DS.apps.Testlayer.BuyatIntradayMarket -->
+      <class name="ai.DS.apps.Testlayer.SellFuctionality">
+        <test-method is-config="true" signature="SetUpBrowser(java.lang.String)[pri:0, instance:ai.DS.apps.Testlayer.SellFuctionality@245b4bdc]" started-at="2023-01-04T14:20:51 IST" name="SetUpBrowser" finished-at="2023-01-04T14:20:59 IST" duration-ms="8585" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpBrowser -->
+        <test-method signature="verifySellatIntraday()[pri:0, instance:ai.DS.apps.Testlayer.SellFuctionality@245b4bdc]" started-at="2023-01-04T14:20:59 IST" name="verifySellatIntraday" finished-at="2023-01-04T14:21:11 IST" duration-ms="11347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySellatIntraday -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:ai.DS.apps.Testlayer.SellFuctionality@245b4bdc]" started-at="2023-01-04T14:21:11 IST" name="CloseBrowser" finished-at="2023-01-04T14:21:11 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- ai.DS.apps.Testlayer.SellFuctionality -->
+    </test> <!-- Test -->
+  </suite> <!-- Regression Suite -->
+</testng-results>
